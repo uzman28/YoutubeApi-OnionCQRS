@@ -9,7 +9,7 @@ namespace YoutubeApi.Domain.Common
     public class EntityBase : IEntityBase
     {
         public int ID { get; set; }
-        public DateTime CreatedTime { get; set; }: DateTime.now
+        public DateTime CreatedTime { get; set; } = DateTime.Now;
         public bool IsDeleted { get; set; }
     }
 }
